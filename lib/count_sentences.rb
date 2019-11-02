@@ -32,7 +32,7 @@ class String
     new = self.split("!", ".", "?")
     size = new.size
     return size
-    
+
 
   end
 end
