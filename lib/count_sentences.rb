@@ -29,6 +29,8 @@ class String
   end
 
   def count_sentences
+    new = []
+    size = 0
     new = self.split("!", ".", "?")
     size = new.size
     return size
