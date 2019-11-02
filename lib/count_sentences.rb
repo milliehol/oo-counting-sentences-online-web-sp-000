@@ -30,10 +30,10 @@ class String
 
   def count_sentences
     new = []
-    size = 0
+    nSize = 0
     new = self.split("!", ".", "?")
-    size = new.size
-    return size
+    nSize = new.size
+    return nSize
 
 
   end
