@@ -29,10 +29,9 @@ class String
   end
 
   def count_sentences
-    new = []
+    nArray = self.split(/[.?!]/).reject {|string| string.empty?}
     nSize = 0
-    new = self.split("!", ".", "?")
-    nSize = new.size
+    nSize = nArray.length
     return nSize
 
 
